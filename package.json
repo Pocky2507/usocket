@@ -1,38 +1,25 @@
 {
   "name": "usocket",
-  "version": "1.0.1",
-  "description": "unix local sockets with descriptor passing",
+  "version": "0.3.0-pockyfix",
+  "description": "Fork of usocket with fixes for Node 22+",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec",
-    "configure": "node-gyp configure",
-    "build": "node-gyp build",
-    "rebuild": "node-gyp rebuild"
+    "install": "node-gyp rebuild"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jhs67/usocket.git"
+    "url": "https://github.com/Pocky2507/usocket.git"
   },
   "keywords": [
-    "unix",
-    "local",
     "socket",
-    "file",
-    "descriptor"
+    "network",
+    "native-addon",
+    "node-gyp"
   ],
-  "author": "Jon Spencer <jon@jonspencer.ca>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jhs67/usocket/issues"
-  },
-  "homepage": "https://github.com/jhs67/usocket#readme",
-  "devDependencies": {
-    "mocha": "^9.2.2"
-  },
+  "author": "Pocky2507 (fork from jhs67)",
+  "license": "MIT",
   "dependencies": {
-    "bindings": "^1.5.0",
-    "debug": "^4.3.4",
-    "nan": "^2.15.0",
-    "node-gyp": "^9.0.0"
-  }
+    "node-addon-api": "^4.0.0"
+  },
+  "gypfile": true
 }
