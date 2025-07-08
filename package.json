@@ -19,7 +19,7 @@
   "author": "Pocky2507 (fork from jhs67)",
   "license": "MIT",
   "dependencies": {
-    "node-addon-api": "^4.0.0"
+    "node-addon-api": "^4.3.0"
   },
   "gypfile": true
 }
