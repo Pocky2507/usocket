@@ -1,6 +1,6 @@
 {
   "name": "usocket",
-  "version": "0.3.0-pockyfix",
+  "version": "0.3.1-pockyfix",
   "description": "Fork of usocket with fixes for Node 22+",
   "main": "index.js",
   "scripts": {
